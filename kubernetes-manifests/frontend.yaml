@@ -30,7 +30,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: harbor.iaasadmin.in/microservices_dev/frontend:1.0.0
+          image: gcr.io/eternal-aspect-316416/frontend:1.0.0
           ports:
           - containerPort: 8080
           readinessProbe:
